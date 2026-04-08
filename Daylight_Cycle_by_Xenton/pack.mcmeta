@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "description": "Custom daylight cycle by Xenton / SRXenton / Xenton_de / XentonLP",
+    "min_format": [
+      101,
+      1
+    ],
+    "max_format": 101
+  }
+}
