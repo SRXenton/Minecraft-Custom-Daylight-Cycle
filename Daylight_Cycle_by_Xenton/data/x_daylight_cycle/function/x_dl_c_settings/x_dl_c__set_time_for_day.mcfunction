@@ -11,4 +11,4 @@
 ## Values between 1 minutes and 1000
 ## All values over 1000, the calculation not accurate
 
-$function x_daylight_cycle:c_dl_c_functions/x_dl_c__calculate_time {time:$(time), where:"night"}
+$function x_daylight_cycle:x_dl_c_functions/x_dl_c__calculate_time {time:$(time), where:"day"}
