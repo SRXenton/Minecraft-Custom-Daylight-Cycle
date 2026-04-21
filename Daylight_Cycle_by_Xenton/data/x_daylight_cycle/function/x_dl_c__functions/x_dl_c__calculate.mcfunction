@@ -12,7 +12,7 @@ scoreboard players operation _position_x_1000 x_dl_c.CustomDaylightCycle += _ste
 execute store result storage x_dl_c.daylightcycle:values data.position int 0.001 run scoreboard players get _position_x_1000 x_dl_c.CustomDaylightCycle
 
 ## set time with new position data
-function x_daylight_cycle:x_dl_c__set_time with storage x_dl_c.daylightcycle:values data
+function x_daylight_cycle:x_dl_c__functions/x_dl_c__set_time with storage x_dl_c.daylightcycle:values data
 
 ## Debug
 # tellraw @a "Debug: cal"
