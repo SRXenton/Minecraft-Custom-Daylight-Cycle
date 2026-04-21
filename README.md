@@ -36,3 +36,15 @@ V xx
 -- Set the sun position on end of the day (Tick: 12000)
 -- Command:
 -- /function x_daylight_cycle:x_dl_c__set_sundown
+
+- New Function: set time for day 
+-- Set the length of the time in real minutes for day
+-- value = integer, example: 1,2,3,....,1000
+-- Command:
+-- /function x_daylight_cycle:x_dl_c_settings/x_dl_c__set_time_for_day {time:value}
+
+- New Function: set time for night
+-- Set the length of the time in real minutes for night
+-- value = integer, example: 1,2,3,....,1000
+-- Command:
+-- /function x_daylight_cycle:x_dl_c_settings/x_dl_c__set_time_for_night {time:value}
