@@ -1,5 +1,5 @@
 ## Disable ingame daylight cycle 
-gamerule advance_time false
+# gamerule advance_time false
 
 ## Remove and Add scoreboard for custom daylight cycle
 scoreboard objectives remove x_dl_c.CustomDaylightCycle
