@@ -2,10 +2,10 @@
 Datapack for Minecraft to override the ingame daylight cycle, to make it possible, to have own time for night and day. Example: 30min day and 5min night
 
 # Installation:
-Put this datapack in your savegame, in the folder datapacks<br>
-After reload /reload our world, you can check is the datapack available with the command: /datapack list.<br>
-When you finde in green brackets: [file/Daylight_Cycle_by_xenton (world)], than the datapack is correct installed<br>
-You don't need to do anything to initalise this datapack, it will be run automaticly after correct install.<br>
+- Put this datapack in your savegame, in the folder datapacks<br>
+- After reload /reload our world, you can check is the datapack available with the command: /datapack list.<br>
+    When you finde in green brackets: [file/Daylight_Cycle_by_xenton (world)], than the datapack is correct installed<br>
+- You don't need to do anything to initalise this datapack, it will be run automaticly after correct install.<br>
 
 # Run:
 The gamerule advance_time will be not changed, the position off the sun and moon, will be overitten by the datapack.<br>
