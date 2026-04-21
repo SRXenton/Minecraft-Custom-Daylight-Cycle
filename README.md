@@ -8,8 +8,8 @@ Datapack for Minecraft to override the ingame daylight cycle, to make it possibl
 - You don't need to do anything to initalise this datapack, it will be run automaticly after correct install.<br>
 
 # Run:
-The gamerule advance_time will be not changed, the position off the sun and moon, will be overitten by the datapack.<br>
-For settings, you have 4 option, set time for day length, in real minutes, set time for night length, in real minutes, set datapack pause, set datapack resume<br>
+- The gamerule advance_time will be not changed, the position off the sun and moon, will be overitten by the datapack.<br>
+- For settings, you have 4 option, set time for day length, in real minutes, set time for night length, in real minutes, set datapack pause, set datapack resume<br>
     Commands:<br>
         /function x_daylight_cycle:x_dl_c__pause -- Paused the calculation from the sun/moon position. The ingame calculation overtaken, when is not disabled<br>
         /function x_daylight_cycle:x_dl_c__resume -- Restart the calculation from the sun/moon position. The ingame calculation will overitten by datapack again<br>
