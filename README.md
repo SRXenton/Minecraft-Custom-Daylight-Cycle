@@ -29,7 +29,7 @@ Datapack for Minecraft to override the ingame daylight cycle, to make it possibl
 
 
 # Changelog:
-V xx<br>
+BETA to 26.4.0<br>
 - Testing:<br>
 -- V 26.1 - run<br>
 -- V 26.1.1 - run<br>
