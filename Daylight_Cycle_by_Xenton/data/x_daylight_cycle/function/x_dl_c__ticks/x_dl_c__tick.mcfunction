@@ -1,5 +1,6 @@
-## Automatic init
+## Automatic initialisation
 execute unless data storage x_dl_c.daylightcycle:values {is_active:1} run function x_daylight_cycle:x_dl_c__functions/x_dl_c__init_custom_daylight_cycle
+execute unless data storage x_dl_c.daylightcycle:values {scoreboard_count:4} run function x_daylight_cycle:x_dl_c__functions/x_dl_c__init_custom_daylight_cycle
 execute unless data storage x_dl_c.daylightcycle:values {data:{time:{}}} run function x_daylight_cycle:x_dl_c__functions/x_dl_c__calculate_misc1
 
 
