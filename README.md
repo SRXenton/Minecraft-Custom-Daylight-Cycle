@@ -32,6 +32,17 @@ Datapack for Minecraft to override the ingame daylight cycle, to make it possibl
 
 
 # Changelog:
+26.x.x<br>
+- Testing:<br>
+-- V 26.1.1<br>
+
+- New Settings-Window<br>
+-- Settingwindow for settings Day and Night<br>
+-- Command:<br>
+-- /function x_daylight_cycle:x_dl_c__settings<br>
+<br>
+<br>
+
 BETA to 26.4.0<br>
 - Testing:<br>
 -- V 26.1 - run<br>
