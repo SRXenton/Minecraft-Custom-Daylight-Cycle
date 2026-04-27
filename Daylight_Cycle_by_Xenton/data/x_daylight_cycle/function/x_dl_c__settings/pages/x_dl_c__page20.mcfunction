@@ -1,8 +1,12 @@
+### Page for NIGHT
+
+## scoreboard
 scoreboard players add @s x_dl_c.CustomDaylightCycleP 1
 scoreboard players enable @s x_dl_c.CustomDaylightCycleP
 scoreboard players enable @s x_dl_c.CustomDaylightCycleV
 scoreboard players set @s x_dl_c.CustomDaylightCycleW 20 
 
+## Dialog window
 $dialog show @s {\
     type:"minecraft:confirmation",\
     pause:false,\
@@ -40,3 +44,4 @@ $dialog show @s {\
     yes:{label:"Save",action:{type:"minecraft:dynamic/run_command",template:"trigger x_dl_c.CustomDaylightCycleV set \u0024(v)"}},\
     no:{label:"Close without save",action:{type:"minecraft:run_command",command:"trigger x_dl_c.CustomDaylightCycleP set 1"}}\
 }
+

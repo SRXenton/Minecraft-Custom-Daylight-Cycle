@@ -1,8 +1,12 @@
+### Page for NIGHT
+
+## scoreboard
 scoreboard players add @s x_dl_c.CustomDaylightCycleP 1
 scoreboard players enable @s x_dl_c.CustomDaylightCycleP
 scoreboard players enable @s x_dl_c.CustomDaylightCycleV
 scoreboard players set @s x_dl_c.CustomDaylightCycleW 10 
 
+## Dialog window
 $dialog show @s {\
     type:"minecraft:confirmation",\
     pause:false,\

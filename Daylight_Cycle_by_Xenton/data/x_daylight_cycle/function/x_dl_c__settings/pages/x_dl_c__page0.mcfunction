@@ -1,5 +1,9 @@
+### Page Start
+
+## Scoreboard
 scoreboard players enable @s x_dl_c.CustomDaylightCycleP
 
+## Dialog window
 $dialog show @s {\
     type:"minecraft:multi_action",\
     pause:false,\
@@ -44,3 +48,4 @@ $dialog show @s {\
     ],\
     exit_action:{label:"Close",action:{type:"minecraft:run_command",command:"trigger x_dl_c.CustomDaylightCycleP set 1"}}\
 }
+
