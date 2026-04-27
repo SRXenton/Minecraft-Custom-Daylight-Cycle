@@ -11,4 +11,5 @@
 ## Values between 1 minutes and 1000
 ## All values over 1000, the calculation not accurate
 
+$data modify storage x_dl_c.daylightcycle:values data.time.day set value $(time)
 $function x_daylight_cycle:x_dl_c__functions/x_dl_c__calculate_time {time:$(time), where:"day"}
