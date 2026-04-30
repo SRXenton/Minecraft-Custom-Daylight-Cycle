@@ -3,7 +3,9 @@ Datapack for Minecraft to override the ingame daylight cycle, to make it possibl
 
 # Installation:
 - Put this datapack in your savegame, in the folder datapacks<br>
-- After reload /reload our world, you can check is the datapack available with the command: /datapack list.<br>
+-- Example: .minecraft - saves - YourWorld - datapacks - Daylight_Cycle_by_Xenton...<br>
+
+- After reload with command "/reload" our world, you can check is the datapack available with the command "/datapack list".<br>
     From Github as folder:<br>
         When you finde in green brackets: [file/Daylight_Cycle_by_xenton (world)], than the datapack is correct installed<br>
     From Curseforge as ZIP: https://www.curseforge.com/minecraft/data-packs/custom-daylight-cycle<br>
@@ -12,22 +14,30 @@ Datapack for Minecraft to override the ingame daylight cycle, to make it possibl
 
 # Run:
 - The gamerule advance_time will be not changed, the position off the sun and moon, will be overitten by the datapack.<br>
-- For settings, you have 4 option, set time for day length, in real minutes, set time for night length, in real minutes, set datapack pause, set datapack resume<br>
+- For settings since 26.x.x, you have 3 option, set datapack pause, set datapack resume and for settings window<br>
     Commands:<br>
+        /function x_daylight_cycle:x_dl_c__settings -- Settingwindow<br>
         /function x_daylight_cycle:x_dl_c__pause -- Paused the calculation from the sun/moon position. The ingame calculation overtaken, when is not disabled<br>
         /function x_daylight_cycle:x_dl_c__resume -- Restart the calculation from the sun/moon position. The ingame calculation will overitten by datapack again<br>
-        /function x_daylight_cycle:x_dl_c_settings/x_dl_c__set_time_for_day {time:value} -- Set the time length for sun is up in real time minutes<br>
-        /function x_daylight_cycle:x_dl_c_settings/x_dl_c__set_time_for_night {time:value} -- Set the time length for moon is up in real time minutes<br>
-        Note: Replace value only with integer, example 1,2,3,...,1000<br>
+        <br>
     There are predefined positions for sun and moon<br>
     Commands:<br>
         /function x_daylight_cycle:x_dl_c__set_day -- Set the sun on position after sunrise (Tick: 0)<br>
         /function x_daylight_cycle:x_dl_c__set_night -- Set the moon on the position after sundown (Tick: 13000)<br>
         /function x_daylight_cycle:x_dl_c__set_sunrise -- Set the sun, before the sun is rising (Tick: 22900)<br>
         /function x_daylight_cycle:x_dl_c__set_sundown -- Set the sun, before the sun go down and the moon is rising (Tick: 12000)<br>
+<br>
+
+# Old Settings:
+- This settings are still available, since BETA, but not so usefull.
+    Commands:<br>
+        /function x_daylight_cycle:x_dl_c_settings/x_dl_c__set_time_for_day {time:value} -- Set the time length for sun is up in real time minutes<br>
+        /function x_daylight_cycle:x_dl_c_settings/x_dl_c__set_time_for_night {time:value} -- Set the time length for moon is up in real time minutes<br>
+        Note until 26.4.0: Replace value only with integer, example 1,2,3,...,1000 or greater<br>
+        Note since 26.x.x: Replace value only with integer, example 1,2,3,...,1000, no check exist for wrong values<br>
 
 
-
+# ===========================================================================================<br>
 
 
 
