@@ -39,8 +39,10 @@ $dialog show @s {\
         }\
     ],\
     inputs:[\
-        {key:"v",type:"minecraft:text",initial:"$(day)",label:""}\
+        {key:"v",type:"minecraft:number_range",initial:$(day),label:"",start:1,end:180,step:1}\
     ],\
     yes:{label:"Save",action:{type:"minecraft:dynamic/run_command",template:"trigger x_dl_c.CustomDaylightCycleV set \u0024(v)"}},\
     no:{label:"Close without save",action:{type:"minecraft:run_command",command:"trigger x_dl_c.CustomDaylightCycleP set 1"}}\
 }
+
+#         {key:"v",type:"minecraft:number_range",initial:"$(day)",label:"",start:1,end:1000}
