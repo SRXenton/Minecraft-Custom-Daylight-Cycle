@@ -11,12 +11,14 @@
 ## Values between 1 minutes and 1000
 ## All values over 1000, the calculation not accurate
 
+## Check is Value is creater zero (0)
 $scoreboard players set #temp1 x_dl_c.CustomDaylightCycle $(time)
 execute if score #temp1 x_dl_c.CustomDaylightCycle matches ..0 run tellraw @s [{text:"Datapack: ", color:"white"},{text:"Custom Daylight-Cycle by Xenton : ", color: "gold"}, {text:"Value is lesser than 1 !!!",color: "red"}]
 execute if score #temp1 x_dl_c.CustomDaylightCycle matches ..0 run return -1
 scoreboard players reset #temp1 x_dl_c.CustomDaylightCycle 
 
 
+## Change time value
 $data modify storage x_dl_c.daylightcycle:values data.time.night set value $(time)
 $function x_daylight_cycle:x_dl_c__functions/x_dl_c__calculate_time {time:$(time), where:"night"}
 tellraw @s [{text:"Datapack: ", color:"white"},{text:"Custom Daylight-Cycle by Xenton : ", color: "gold"}, {text:"Value for NIGHT is changed",color: "green"}]
