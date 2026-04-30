@@ -1,17 +1,31 @@
 ## Disable ingame daylight cycle 
 # gamerule advance_time false
 
-## Remove and Add scoreboard for custom daylight cycle
+## Remove and Add scoreboards for custom daylight cycle
 scoreboard objectives remove x_dl_c.CustomDaylightCycle
 scoreboard objectives add x_dl_c.CustomDaylightCycle dummy "Custom Daylight Cycle by Xenton"
 
+scoreboard objectives remove x_dl_c.CustomDaylightCycleP
+scoreboard objectives add x_dl_c.CustomDaylightCycleP trigger "Custom Daylight Cycle by Xenton (P)"
+
+scoreboard objectives remove x_dl_c.CustomDaylightCycleV
+scoreboard objectives add x_dl_c.CustomDaylightCycleV trigger "Custom Daylight Cycle by Xenton (V)"
+
+scoreboard objectives remove x_dl_c.CustomDaylightCycleW
+scoreboard objectives add x_dl_c.CustomDaylightCycleW dummy "Custom Daylight Cycle by Xenton (W)"
+
 ## Remove and Add data storage with default values
 data remove storage x_dl_c.daylightcycle:values data
-data merge storage x_dl_c.daylightcycle:values {data:{steps:{day:1000,night:10000},position:0},is_active:1}
+data merge storage x_dl_c.daylightcycle:values {data:{steps:{day:1000,night:10000},position:0},is_active:1, scoreboard_count:4}
 
 ## Add in scoreboard default values
 scoreboard players set _position_x_1000 x_dl_c.CustomDaylightCycle 0
 scoreboard players set #run x_dl_c.CustomDaylightCycle 1
 
+
+## Textoutput after initialisation
+tellraw @a [{text:"Datapack: ", color:"white"},{text:"Custom Daylight-Cycle by Xenton is ", color: "gold"}, {text:"initialised",color: "green"}]
+
 ## Debug
-scoreboard objectives setdisplay sidebar x_dl_c.CustomDaylightCycle
+#scoreboard objectives setdisplay sidebar x_dl_c.CustomDaylightCycle
+#scoreboard objectives setdisplay sidebar x_dl_c.CustomDaylightCycleP
