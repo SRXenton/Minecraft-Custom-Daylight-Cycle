@@ -52,8 +52,15 @@ Datapack for Minecraft to override the ingame daylight cycle, to make it possibl
 -- Command:<br>
 -- /function x_daylight_cycle:x_dl_c__settings<br>
 
-- New chat text output after datapack initialisation
--- Text: "Datapack: Custom Daylight-Cycle by Xenton is initialised"
+- New check is value lesser 1, when using /function x_daylight_cycle:x_dl_c_settings/x_dl_c__set_time_for_day {time:value} and /function x_daylight_cycle:x_dl_c_settings/x_dl_c__set_time_for_night {time:value}, than give a text output and changed nothing.<br>
+
+- New chat text outputs:<br>
+-- After initialisation: "Datapack: Custom Daylight-Cycle by Xenton is initialised"<br>
+-- After correct change day: "Datapack: Custom Daylight-Cycle by Xenton : Value for DAY is changed"<br>
+-- After correct change night: "Datapack: Custom Daylight-Cycle by Xenton : Value for NIGHT is changed"<br>
+-- After not correct value: "Datapack: Custom Daylight-Cycle by Xenton : Value is lesser than 1 !!!"<br>
+
+- New check for init, all needed variables are active, when not, datapack will be new initialistion<br>
 <br>
 <br>
 
