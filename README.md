@@ -16,7 +16,7 @@ Datapack for Minecraft to override the ingame daylight cycle, to make it possibl
 - The gamerule advance_time will be not changed, only the position off the sun and moon, will be overitten by the datapack.<br>
 - For settings, you have 3 options: set datapack pause, set datapack resume and for settings window<br>
     Commands:<br>
-        /function x_daylight_cycle:x_dl_c__settings -- Settingwindow (Since 26.x.x)<br>
+        /function x_daylight_cycle:x_dl_c__settings -- Settingwindow (Since 26.5.0)<br>
         /function x_daylight_cycle:x_dl_c__pause -- Paused the calculation from the sun/moon position. The ingame calculation overtaken, when is not disabled<br>
         /function x_daylight_cycle:x_dl_c__resume -- Restart the calculation from the sun/moon position. The ingame calculation will overitten by datapack again<br>
         <br>
@@ -33,7 +33,7 @@ Datapack for Minecraft to override the ingame daylight cycle, to make it possibl
 - Values possible 1 to 1000 or Greater and only integer, like example 1,2,3,...,1000<br>
 - - Note for all Versions: Values greater than 1000 can't calculate correctly<br>
 - - Note until 26.4.0: no check exist for wrong values<br>
-- - Note since 26.x.x: Check exist, and give text output<br>
+- - Note since 26.5.0: Check exist, and give text output<br>
 - - Commands:<br>
 - - - /function x_daylight_cycle:x_dl_c_settings/x_dl_c__set_time_for_day {time:value} -- Set the time length for sun is up in real time minutes<br>
 - - - /function x_daylight_cycle:x_dl_c_settings/x_dl_c__set_time_for_night {time:value} -- Set the time length for moon is up in real time minutes<br>
@@ -43,9 +43,11 @@ Datapack for Minecraft to override the ingame daylight cycle, to make it possibl
 
 
 # Changelog:
-26.x.x<br>
+26.5.0<br>
 - Testing:<br>
--- V 26.1.1<br>
+-- V 26.1 -- run<br>
+-- V 26.1.1 -- run<br>
+-- V 26.1.2 -- run<br>
 
 - New Settings-Window<br>
 -- Settingwindow for settings Day and Night<br>
