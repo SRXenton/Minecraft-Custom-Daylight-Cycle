@@ -17,9 +17,8 @@ execute if score #temp1 x_dl_c.CustomDaylightCycle matches ..0 run tellraw @s [{
 execute if score #temp1 x_dl_c.CustomDaylightCycle matches ..0 run return -1
 scoreboard players reset #temp1 x_dl_c.CustomDaylightCycle 
 
+
 ## Change time value
-$data modify storage x_dl_c.daylightcycle:values data.time.day set value $(time)
-$function x_daylight_cycle:x_dl_c__functions/x_dl_c__calculate_time {time:$(time), where:"day"}
-tellraw @s [{text:"Datapack: ", color:"white"},{text:"Custom Daylight-Cycle by Xenton : ", color: "gold"}, {text:"Value for DAY is changed",color: "green"}]
-
-
+$data modify storage x_dl_c.daylightcycle:values data.time.night set value $(time)
+$function x_daylight_cycle:x_dl_c__f/x_dl_c__calculate_time {time:$(time), where:"night"}
+tellraw @s [{text:"Datapack: ", color:"white"},{text:"Custom Daylight-Cycle by Xenton : ", color: "gold"}, {text:"Value for NIGHT is changed",color: "green"}]

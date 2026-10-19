@@ -1,3 +1,6 @@
+### Calculate Time
+### Called in: p/x_dl_c__set_time_for_night; p/x_dl_c__set_time_for_day
+
 ## Calculation to steps:
 ## First:
 ## 12000 * time / 10 = y
@@ -32,3 +35,8 @@ scoreboard players operation #temp2 x_dl_c.CustomDaylightCycle /= #temp1 x_dl_c.
 
 ## Write scoreboard value for steps in data storage
 $execute store result storage x_dl_c.daylightcycle:values data.steps.$(where) int 1 run scoreboard players get #temp2 x_dl_c.CustomDaylightCycle
+
+
+## Debug:
+return 1
+

@@ -1,5 +1,6 @@
-## Disable ingame daylight cycle 
-# gamerule advance_time false
+### Disable ingame daylight cycle 
+### Called in: f/x_dl_c_tick.mcfunction
+
 
 ## Remove and Add scoreboards for custom daylight cycle
 scoreboard objectives remove x_dl_c.CustomDaylightCycle
@@ -29,3 +30,6 @@ tellraw @a [{text:"Datapack: ", color:"white"},{text:"Custom Daylight-Cycle by X
 ## Debug
 #scoreboard objectives setdisplay sidebar x_dl_c.CustomDaylightCycle
 #scoreboard objectives setdisplay sidebar x_dl_c.CustomDaylightCycleP
+
+return 1
+
