@@ -22,4 +22,5 @@ $data modify storage x_dl_c.daylightcycle:values data.time.day set value $(time)
 $function x_daylight_cycle:x_dl_c__f/x_dl_c__calculate_time {time:$(time), where:"day"}
 tellraw @s [{text:"Datapack: ", color:"white"},{text:"Custom Daylight-Cycle by Xenton : ", color: "gold"}, {text:"Value for DAY is changed",color: "green"}]
 
-
+## Debug
+return 1

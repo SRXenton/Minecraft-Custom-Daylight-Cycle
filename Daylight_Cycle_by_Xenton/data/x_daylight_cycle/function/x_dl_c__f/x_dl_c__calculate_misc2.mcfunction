@@ -10,3 +10,6 @@ execute if score @s x_dl_c.CustomDaylightCycleW matches 20 run function x_daylig
 ## Reset
 data remove storage x_dl_c.daylightcycle:values data.temp
 scoreboard players set @s x_dl_c.CustomDaylightCycleP 1
+
+## Debug
+return 1

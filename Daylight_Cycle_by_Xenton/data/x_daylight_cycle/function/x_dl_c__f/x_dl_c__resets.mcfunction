@@ -13,4 +13,5 @@ scoreboard players set @s x_dl_c.CustomDaylightCycleP 0
 scoreboard players set @s x_dl_c.CustomDaylightCycleW 0
 scoreboard players set @s x_dl_c.CustomDaylightCycleV 0
 
+## Debug
 return 1
