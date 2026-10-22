@@ -45,3 +45,5 @@ $dialog show @s {\
     no:{label:"Close without save",action:{type:"minecraft:run_command",command:"trigger x_dl_c.CustomDaylightCycleP set 1"}}\
 }
 
+## Debug
+return 1
