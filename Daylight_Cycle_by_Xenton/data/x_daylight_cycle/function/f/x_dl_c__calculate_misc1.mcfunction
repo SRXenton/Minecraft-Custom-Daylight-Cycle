@@ -1,4 +1,16 @@
-## Calculate steps to time in minutes
+### Calculate steps to time in minutes
+### Called in: t/x_dl_c__tick.mcfunction
+
+## Calculations:
+## y = (12000 * 1000) / (x * 20 * 60)
+##
+## Day: 
+## 12000 * 1000 / steps.day / 20 / 60 = time.day
+##
+## Night:
+## 12000 * 1000 / steps.night / 20 / 60 = time.night
+##
+
 
 # Write values from data storage in scorebord
 execute store result score #s_day x_dl_c.CustomDaylightCycle run data get storage x_dl_c.daylightcycle:values data.steps.day
@@ -36,3 +48,8 @@ scoreboard players reset #s_night x_dl_c.CustomDaylightCycle
 scoreboard players reset #12000 x_dl_c.CustomDaylightCycle
 scoreboard players reset #1000 x_dl_c.CustomDaylightCycle
 scoreboard players reset #temp1 x_dl_c.CustomDaylightCycle
+
+
+## Debug 
+return 1
+
