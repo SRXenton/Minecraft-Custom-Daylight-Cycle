@@ -1,6 +1,6 @@
 {
     "replace": false,
     "values":[
-        "x_daylight_cycle:x_dl_c__t/x_dl_c__tick"
+        "x_daylight_cycle:t/x_dl_c__tick"
     ]
 }
