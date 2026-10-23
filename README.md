@@ -8,8 +8,8 @@ Datapack for Minecraft to override the ingame daylight cycle, to make it possibl
 - After reload with command "/reload" your world, you can check is the datapack available with the command "/datapack list".<br>
     From Github as folder:<br>
         When you find in green brackets: [file/Daylight_Cycle_by_xenton (world)], than the datapack is correct installed<br>
-    From Curseforge as ZIP: https://www.curseforge.com/minecraft/data-packs/custom-daylight-cycle<br>
-         When you find in green brackets: [file/Custom_Daylight_Cycle_26-4-0.zip (world)], than the datapack is correct installed.<br>
+    From Curseforge, Modrinth as ZIP: https://www.curseforge.com/minecraft/data-packs/custom-daylight-cycle<br>
+         When you find in green brackets: [file/Custom_Daylight_Cycle_26-5-x.zip (world)], than the datapack is correct installed.<br>
 - You don't need to do anything to initalise this datapack, it will be run automaticly after correct install.<br>
 
 # Run:
@@ -43,6 +43,15 @@ Datapack for Minecraft to override the ingame daylight cycle, to make it possibl
 
 
 # Changelog:
+26.5.1<br>
+- Refactoring foldes
+- Testing:<br>
+-- V 26.1 -- run<br>
+-- V 26.1.1 -- run<br>
+-- V 26.1.2 -- run<br>
+-- V 26.2 -- run
+-- V 26.3 -- run
+
 26.5.0<br>
 - Testing:<br>
 -- V 26.1 -- run<br>
